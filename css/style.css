@@ -168,12 +168,22 @@ body{
     justify-content: center;
     align-items: center;
 }
-.preview .text .btn-con .col-6{
+.preview .text .btn-con .col-md-6{
     width: 200px;
 }
-.preview .text .btn-con .col-3{
+.preview .text .btn-con .col-md-3{
     width: 100px;
     margin-left: 20px;
+}
+@media (max-width: 768px) {
+    .preview .text .btn-con .col-12{
+        width: 100%;
+    }
+    .preview .text .btn-con .col-6{
+        width: 48.5%;
+        margin-right: 5px !important;
+        margin: 5px 0 0 0;
+    }
 }
 .preview .text .btn-con div a{
     text-decoration: none;
