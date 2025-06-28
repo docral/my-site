@@ -426,10 +426,10 @@ body{
   left: 0;
   height: 24px;
   width: 24px;
-  background-color: #eee;
+  background-color: #d8d8d8;
   border-radius: 6px;
   transition: background-color 0.3s ease;
-  background-color: #fff;
+  background-color: #d8d8d8;
 }
 
 /* Эффект при наведении */
@@ -616,5 +616,13 @@ body{
     }
     .footer div{
         margin-bottom: 30px;
+    }
+    .footer div ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    } /* Можно настроить по вкусу */
+    .footer div ul {
+        padding: 0;
+        margin: 0;
     }
 }
